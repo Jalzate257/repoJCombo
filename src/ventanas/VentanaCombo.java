@@ -1,4 +1,4 @@
-package vistas;
+package ventanas;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,9 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class VentanaPrincipal extends JFrame implements ActionListener {
+public class VentanaCombo extends JFrame implements ActionListener {
 
-    public VentanaPrincipal() {
+    public VentanaCombo() {
         iniciarComponentes();
     }
 
